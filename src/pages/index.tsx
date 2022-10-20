@@ -1,10 +1,10 @@
 import Head from "next/head";
 
 type Props = {
-  title: String,
+  title: string;
 };
 
-export default function Home({title = "React Avançado"}: Props) {
+export default function Home({ title = "React Avançado" }: Props) {
   return (
     <div>
       <Head>
@@ -15,8 +15,7 @@ export default function Home({title = "React Avançado"}: Props) {
 
       <main>
         <h1>
-          Welcome to{" "}
-          <a href="https://nextjs.org">{title}!</a>
+          Welcome to <a href="https://nextjs.org">{title}!</a>
         </h1>
       </main>
     </div>
