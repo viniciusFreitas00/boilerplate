@@ -3,6 +3,6 @@ module.exports = {
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   collectCoverage: true,
   collectCoverageFrom: ['src/**/*.ts(x)'],
-  coveragePathIgnorePatterns: ['_app.tsx', '_document.tsx'],
+  coveragePathIgnorePatterns: ['_app.tsx', '_document.tsx', 'stories.tsx'],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts']
 }
